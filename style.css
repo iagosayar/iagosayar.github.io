@@ -1,0 +1,81 @@
+
+
+:root{
+
+    --primary:#6209DB;
+    --dark:#000000;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+section{
+
+    height: 900px;
+}
+.navbar{
+    min-height: 90px;
+}
+.navbar .btn{
+
+    padding: .625rem 1.25rem !important;
+}
+
+.text-primary{
+color:var(--primary) !important;
+}
+
+
+.btn{
+padding: 1rem;
+
+}
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.bg-primary{
+
+    background-color: var(--primary) !important;
+    border-color: var(--primary);
+}
+
+.content{
+    max-width: 500px;
+    text-align:center;
+}
+
+.step{
+position:relative;
+display: flex;
+justify-content: center;
+
+}
+.step:after{
+content:' '; 
+border-right: 1px solid var(--dark);
+position:absolute;
+height: 60px !important ;
+top:34px;
+
+}
+/*  IDS   */
+
+#hero{
+height: 100%;
+margin-bottom: 8% !important;
+}
+
+
+#APPSTORES{
+margin-left:20%;
+}
